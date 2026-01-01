@@ -1,10 +1,6 @@
 # YouTube-lectures-Video-Summarizer
 AI-Powered Videos/ lecture Summarization that transform hours of video into minutes of reading
 
-# [Project Name] - LLM Application
-
-## 📖 Overview
-
 ## 🛠️ Tech Stack
 * **Language:** Python
 * **Frameworks:** LangChain, Hugging Face Transformers
