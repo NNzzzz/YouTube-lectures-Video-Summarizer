@@ -1,0 +1,53 @@
+output summery of a 1 hour and 20 min video
+video link: [https://www.youtube.com/watch?v=rVfZHWTwXSA]
+
+
+--- FINAL VIDEO SUMMARY ---
+
+The class midterm is this Wednesday and it's 48-hour take-home midterm. The first 
+unsupervised learning algorithm we'll talk about is clustering. The most common uses 
+of clustering is, uh, market segmentation. A clustering algorithm can be used to find 
+clusters of dots near each other. The color of the dots depends on which cluster 
+centroid is closer. The algorithm converges even if you keep running the algorithm. The 
+algorithm is the same either way. It turns out that the algorithm can be proven to 
+converge. The algorithm is written out in the lecture notes, but it turns out if you write it 
+out as a function, it will cost less. The most frequently asked question I get for k-means 
+is how do you choose k? It turns out that in unsupervised learning, sometimes it's just 
+ambiguous, right? K-means gets stuck on sort of local minima sometimes. If you're 
+worried about localMinima, you can do, uh, 10 times, or 100 times or 1000 times from 
+different random initializations of the cluster centroids. Anomaly detection is used for 
+inspecting, inspecting and inspecting data. It is also used for computer security. An 
+algorithm is developed to model the mixture of Gaussians model. The EM algorithm or 
+the expectation-maximization algorithm will allow us to, uh,fit a model despite not 
+knowing which Gaussian each example that come from. The model is very similar to the 
+model you saw in Gaussian discriminant analysis. The EM algorithm is based on the 
+Gaussian discriminant analysis. It uses a hidden random variable z_i that you don't get 
+to see in the training set. If we knew the value of the z's, we could use maximum 
+likelihood estimation. The EM algorithm has two steps. The E-step is set to w i j. The 
+expectation step is the probability that z_i is equal to j. And so to compute this, you use 
+a similar Bayes' rule type of calculation. The EM algorithm is a mixture of two 
+Gaussians. It's a little bit like k-means but with soft assignment. In the first step, we use 
+the formulas we have for maximum likelihood estimation. And in the second, we update 
+the means accordingly. The algorithm is based on a mixture of two Gaussians, one thin 
+narrow Gaussian here and one much wider fatter Gaussian. This will allow you to fit a 
+probability density function that puts a lot of probability models on. The EM algorithm is 
+based on the idea that aircraft engines are generated off of two different Gaussians. By 
+the time the two suppliers of aircraft engines get to you, they've been mixed together, so 
+you can't tell anymore which aircraft engine came from which plant. On Wednesday, 
+we'll talk about a model called factor analysis. It lets you model Gaussians in extremely 
+high dimensional spaces. The derivation of EM we're going to go through now is crucial 
+for applying EM accurately. Jensen's inequality says that left-hand side is going to be the 
+same as right hand side. The only way for the left and right-hand sides to be equal is if x 
+is a constant, meaning it's a random variable that always takes on the same value. The 
+EM algorithm is an iterative algorithm for finding the maximum likelihood estimates of 
+the parameters theta. It is similar to the k-means cluster centroids. The algorithm is 
+based on Jensen's inequality. The E-step constructs the green curve, and the M-step, 
+uh, finds the maximum. The second iteration of EM will construct a new lower bound, 
+and then again, you use a different lower bound. As you keep running EM, this is 
+constantly trying to increase L of Theta. The expected value of z is sum over z, P of z 
+times g of z. The log function is a concave function. The expected value is a lower bound 
+for the log-likelihood of a function. In EM, we want the left and right hand sides to be 
+equal to each other. We want the lower bound to be tight, for the green color to be 
+exactly touching the blue curve. We need the random variable inside to be a constant. In 
+the E-step, we're going to set Qi of z_i equal to that. The M-step is about maximizing the 
+lower bound for the log-likelihood. 
